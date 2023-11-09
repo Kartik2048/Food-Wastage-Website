@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    
 }
 
 .title-header {
@@ -10,6 +10,18 @@ body {
     background-size: cover;
     text-align: center;
     padding: 20px;
+}
+#veggie{
+    
+    max-height: auto;
+    max-width: 700px;
+    border-radius: 30%;
+    
+    
+}
+#body_content{
+   background-position: center;
+   background-size: cover;
 }
 
 .title {
@@ -42,9 +54,10 @@ nav a {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: transparent;
+    
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 footer {
@@ -77,10 +90,4 @@ footer {
     content: '\201D'; /* Unicode character for closing double quote */
     bottom: -20px;
     right: 0;
-}
-#veggie{
-    max-height: auto;
-    max-width: 700px;
-    border-radius: 30%;
-    
 }
