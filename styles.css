@@ -78,3 +78,9 @@ footer {
     bottom: -20px;
     right: 0;
 }
+#veggie{
+    max-height: auto;
+    max-width: 700px;
+    border-radius: 30%;
+    
+}
