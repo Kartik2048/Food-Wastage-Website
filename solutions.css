@@ -6,25 +6,20 @@ header{
     background-size: cover;
     text-align: center;
     
-    padding: 20px;
+    padding: 10px;
     background-position: center;
     
 }
 
-body{
+body {
     text-align: center;
     font-family: sans-serif;
-    margin:0;
+    margin: 0;
     padding: 0;
-    /* background:url(https://images.unsplash.com/photo-1589190051962-0b138f75d3c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpeg) ; */
-    /* background-size: cover blur(20px) ;
-    background-position:center; */
-    /* background-color: transparent; */
-    background:url(https://images.unsplash.com/photo-1589190051962-0b138f75d3c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpeg) no-repeat;
-    background-size: cover blur(30px) ;
-    background-position:center;
+    background: url(https://images.unsplash.com/photo-1589190051962-0b138f75d3c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 30px;
-    
 }
 /* .mealplan{
     
@@ -53,4 +48,20 @@ footer {
     background-color: black;
     text-align: center;
     margin-top: 50px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
 }
