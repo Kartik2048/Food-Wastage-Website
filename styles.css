@@ -13,11 +13,14 @@ body {
 }
 #veggie{
     
-    max-height: auto;
-    max-width: 700px;
-    border-radius: 30%;
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 20%;
     
     
+}
+#impact_on_environment{
+    align-items:initial;
 }
 #body_content{
    background-position: center;
@@ -75,19 +78,22 @@ footer {
 .quote {
     font-style: italic;
     font-size: 20px;
+    text-align: center;
 }
 
-.quote-box::before,
-.quote-box::after {
+.quote-box::before {
     content: '\201C'; /* Unicode character for opening double quote */
-    font-size: 2em;
+    font-size: 5em;
     color: #fff;
     position: absolute;
-    top: -10px;
+    top: 10px;
 }
 
 .quote-box::after {
     content: '\201D'; /* Unicode character for closing double quote */
-    bottom: -20px;
-    right: 0;
+    bottom: 10px; /* Adjust the bottom value to position it */
+    right: 10px; /* Adjust the right value to position it in the bottom-right corner */
+    font-size: 5em;
+    color: #fff;
+    position: absolute;
 }
