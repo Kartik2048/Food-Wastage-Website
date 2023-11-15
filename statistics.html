@@ -59,6 +59,41 @@
                 background-color: #333;
                 color: #fff;
             }
+            /* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
         </style>
     </head>
 <body>
@@ -69,8 +104,15 @@
                 <li><a href="main.html">Home</a></li>
                 <li><a href="statistics.html">Statistics</a></li>
                 <li><a href="solutions.html">Solutions</a></li>
-                <li><a href="recipes.html">Recipes for Leftovers</a></li>
-                <li><a href="pledge.html">Get Involved</a></li>
+                <li class="dropdown">
+                    <a href="recipes.html" class="dropbtn">Recipes for Leftovers &#9660;</a>
+
+                    <div class="dropdown-content">
+                        <a href="Cheesy Corn Grilled Sandwich Recipe.html">Cheesy Corn Grilled Sandwich Recipe</a>
+                        <a href="rice_cutlet.html">Rice Cutlet Recipe</a>
+                        <a href="uttapam_recipe.html">Uttapam Pizza Recipe</a>
+                    </div>
+                </li>                <li><a href="pledge.html">Get Involved</a></li>
             </ul>
         </nav>
     </header>

@@ -109,3 +109,7 @@ footer {
 .dropdown-content a:hover {
   background-color: #555;
 }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
